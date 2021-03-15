@@ -1,0 +1,242 @@
+
+header, footer{
+	
+	padding: 1% 10%;
+	font-family: Apple Chancery;
+	background-color: beige;
+}
+
+main{
+	width: 80%; 
+	margin: 0.5in auto;
+}
+
+body{
+	
+	background-color: ivory;
+	font-family: Helvetica;
+}
+
+h1{
+	font-family: Stencil;
+	font-size: 4em;
+	margin: 0.25in;
+	border-bottom: solid #A52A2A;
+	border-top: solid #A52A2A;
+	text-align: center;
+	
+	
+}
+
+h2{
+	font-family: Stencil;
+	font-size: 3em;
+	margin: 0.75in 0.25in 0.25in;
+	border-bottom: solid #A52A2A;
+	border-top: solid #A52A2A;
+	text-align: center;
+	margin-top: .15in;
+}
+
+h2.left{
+	text-align: left;
+	font-size: 1.5em;
+	border: none;
+	text-decoration: underline;
+	margin-bottom: 0.25em;
+	padding-top: 1em;
+}
+
+h2.right{
+	text-align: right;
+	font-size: 1.5em;
+	border: none;
+	text-decoration: underline;
+	margin-bottom: 0.25em;
+	padding-top: 1.5em;
+}
+
+h2.heading{
+	font-size: 1.5em;
+	border: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	
+}
+
+h3{
+	font-family: Helvetica;
+	margin-bottom: 0;
+	font-size: 2em;
+	margin: 0 0.25in;
+	text-decoration: underline;
+	font-weight: 800;
+}
+
+dl{
+	font-weight: bold;
+	margin: 0 0.25in;
+}
+
+
+
+ul{
+	margin: 0 0.25in 0.25in;
+	
+}
+
+
+
+ul.columned {
+	margin: 0 0.25in 0.25in;
+	columns: 10rem 2;
+}
+
+li{
+	font-weight: bold;
+}
+
+section.breakfast{
+columns: 10rem 2;	
+}
+
+section.breakfast2{
+columns: 10rem 3;	
+}
+
+section.breakfast4{
+	columns: 10rem 4;
+}
+
+li.toast{
+	columns: 10rem 2;
+	list-style-type: none;
+	margin-bottom: 0.5em;
+	margin-left: -2.5em;
+}
+
+dd{
+	margin-left: 0;
+	margin-bottom: 0.5em;
+}
+
+p{
+	margin: 0 0.25in;
+	font-family: Helvetica;
+}
+
+p.larry{
+	font-size: 1.5em;
+	margin: 0.25in 0.25in;
+	padding: 0.1in 0;
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+	color: #A52A2A;
+	border-radius: 0.25em;
+}
+
+p.left{
+	text-align: left;
+	margin: 0 0.25in;
+}
+
+p.right{
+	text-align: right;
+	margin: 0 0.25in;
+}
+
+span{
+	font-weight: normal;
+
+}
+
+span.toright{
+	float: right;
+	
+}
+
+footer{
+	width: 80%;
+	margin: 0.5in auto;
+	font-family: Helvetica;
+	background-color: beige;
+	
+}
+
+#navigation{
+	text-align: center;
+	font-size: 1.5em;
+	color: #A52A2A;
+	font-weight: bold;
+}
+
+header a {
+	color: #A52A2A;
+	font-family: Helvetica;
+	font-weight: normal;
+}
+
+header a:hover {
+	color: black;
+	font-weight: bold;
+}
+
+img {
+	padding-left: 1in;
+	padding-top: 0.5in;
+	max-width: 60%;
+}
+
+
+
+@media screen and (min-width: 900px){
+	section.bottom{
+		columns: 10rem 2;	
+	}
+}
+
+li.over{
+	text-align: right;
+	list-style-type: none;
+	font-weight: normal;
+}
+
+li.options{
+	margin-left: -.4in;
+}
+
+li.underlined{
+	border-bottom: dotted;
+}
+
+#moto{
+	text-align: right;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+#top{
+	columns: 10rem 2;
+}
+
+#top2{
+	columns: 10rem 3;
+}
+
+#breakfastb, #lunchl, #drinksd, #sweetss{
+	border: solid 2pt #A52A2A;
+	margin-bottom: 3em;
+}
+
+section.break{
+	break-inside: avoid;
+}
+
+#drinksd, #sides, #hours, #location{
+	break-inside: avoid;
+}
+
+#sides, #sweetss, #drinksd, #sidesb, #sandwiches {
+	padding-bottom: 1em;
+}

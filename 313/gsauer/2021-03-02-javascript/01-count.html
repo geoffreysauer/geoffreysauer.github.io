@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JavaScript Loop Example</title>
+<style type="text/css">
+	div.page { margin: 1in; border: 1px solid #666; padding: 0.5in; }
+	body { margin: 0; padding: 0; }
+	p { margin: 0; padding: 5px; text-align: center; }
+	p.aqua { background-color: #eeeeff; }
+	p.ivory { background-color: #fff8f0; }
+</style>
+</head>
+<body>
+<div class="page">
+
+<script>
+function isOdd(num) { return num % 2;}
+
+for ( var x = 100; x >= 1 ; x-- ) {
+	document.write ("<p ");
+		if ( isOdd(x) == true ) {
+			document.write ("class='aqua'");
+			} else {
+			document.write ("class='ivory'");
+		};
+	document.write (">X is now ");
+	document.write ( x );
+	document.write (".</p>");
+};
+</script>
+
+</div>
+</body>
+</html>
