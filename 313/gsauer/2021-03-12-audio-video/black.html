@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<title>Geoff's House</title>
+<style>
+	body { background-color: #333333; margin: 0; padding: 0; color: #fff; }
+	video { display: block; width: 100%; height: auto; margin: 0; padding: 0; }
+	@media screen and (max-width:640px) {
+		video.small { display: block; } video.medium { display: none; } video.large { display: none; }
+	}
+	@media screen and (min-width:641px) and (max-width:1000px) {
+		video.small { display: none; } video.medium { display: block; } video.large { display: none; }
+	}
+	@media screen and (min-width:1001px) {
+		video.small { display: none; } video.medium { display: none; } video.large { display: block; }		
+	}
+</style>
+</head>
+<body onload="document.main.video.focus()">
+
+<main id="main">
+
+<h2>Using Drone Videos</h2>
+
+<p>The time has come, the walrus said, to talk of many things. Of shoes and ships and sealing-wax, of cabbages and kings. And why the sea is boiling-hot, and whether pigs have wings.</p>
+
+<video class="small" controls>
+	<source src="drone-small.m4v" type="video/mp4">
+</video>
+<video class="medium" controls>
+	<source src="drone-medium.m4v" type="video/mp4">
+</video>
+<video class="large" controls>
+	<source src="drone-large.m4v" type="video/mp4">
+</video>
+
+<p>The time has come, the walrus said, to talk of many things. Of shoes and ships and sealing-wax, of cabbages and kings. And why the sea is boiling-hot, and whether pigs have wings.</p>
+
+</main>
+
+<audio id="whiterabbits" controls preload="auto">
+	<source src="Chillout-downtempo-music-loop.mp3" type="audio/mp3">
+</audio>
+
+
+</body>
+</html>
