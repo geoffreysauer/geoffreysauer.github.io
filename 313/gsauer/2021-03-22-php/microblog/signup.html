@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>313 Microblog: Sign Up</title>
+	<link href="styles.css" rel="stylesheet" type="text/css">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+	<script type="text/javascript" src="tinymce/tinymce.min.js"></script>
+	<script type="text/javascript">tinymce.init({ selector: "textarea", theme: "modern", skin: "lightgray", plugins: [ "advlist autolink lists link image charmap emoticons spellchecker print textcolor preview anchor searchreplace visualblocks code fullscreen insertdatetime media table  paste " ], statusbar: false, menubar: false, resize: false, toolbar1: "undo redo | bold italic strikethrough | | forecolor backcolor | code fullscreen "});</script>
+	<style>
+		input { position: absolute; left: 150px; }
+	</style>
+</head>
+<body>
+
+<header><h1><a href="http://snm.engl.iastate.edu/313/gsauer/08-php/microblog/"><img src="logo.jpg" width="48" height="36" alt="Logo "></a>313 Microblog: Sign Up</h1>
+<h2>Sign Up for an Account</h1>
+</header>
+
+<div>
+<form method="post" action="signup.php">
+<p>First Name:&nbsp;&nbsp;<input type="text" name="fname"></p>
+<p>Last Name:&nbsp;&nbsp;<input type="text" name="lname"></p>
+<p>Username:&nbsp;&nbsp;<input type="text" name="username"></p>
+<p>Password:&nbsp;&nbsp;<input type="password" name="pass"></p>
+<p>Photo URL:&nbsp;&nbsp;<input type="photo" name="photo"></p>
+<input type="submit" name="Log in">
+</form>
+</div>
+
+<footer><p>Copyright &copy; 2019 by Geoffrey Sauer. All rights reserved. | <a href="search.html">Search</a></p></footer>
+
+</body>
+</html>
