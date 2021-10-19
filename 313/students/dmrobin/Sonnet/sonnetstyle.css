@@ -1,17 +1,0 @@
-body {background-color: black; font-size: 1.1em; margin: 0in;}
-h2#header {background-color: rgb(50,50,50); color: rgb(240,240,240);
-	font-family: Palatino, URW Palladio L, serif;
-	text-align: center;
-	margin: 0in 0 5% 0; padding: 0.25in;
-	border-bottom: solid 2pt rgb(200,200,200);}
-main {max-width: 4.5in; margin: 0.25in auto;}
-
-h1 {color: rgb(255,255,255); text-align: center;
-	font-family: Palatino, URW Palladio L, serif;}
-
-p {margin: 1em 0 1em 0.25in;
-	font-family: Palatino, URW Palladio L, serif;
-	color: rgb(240,240,240);}
-p#couplet {padding-left: 0.25in;}p#footer {text-align: center; font-size: 0.9em;
-	font-family: Palatino, URW Palladio L, serif;
-	margin: 10% 0 0 0;}
