@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="education" path="topics/about_me.html"/>
+   <appContext helpID="my_work_life" path="tasks/my_work_life_a.html"/>
+   <appContext helpID="my_home_life" path="tasks/my_home_life_a.html"/>
+   <appContext helpID="work_experience" path="topics/work_experience.html"/>
+   <appContext helpID="work_2" path="tasks/work_2.html"/>
+   <appContext helpID="work_1" path="tasks/work_1.html"/>
+   <appContext helpID="education" path="topics/education.html"/>
+   <appContext helpID="school_2" path="tasks/school_2.html"/>
+   <appContext helpID="school_1" path="tasks/school_1.html"/>
+   <appContext helpID="skills" path="topics/skills.html"/>
+   <appContext helpID="skill_1" path="tasks/skill_1.html"/>
+   <appContext helpID="skill_4" path="tasks/skill_2.html"/>
+   <appContext helpID="skill_3" path="tasks/skill_3.html"/>
+   <appContext helpID="skill_4" path="tasks/skill_4.html"/>
+   <appContext helpID="references" path="topics/references.html"/>
+   <appContext helpID="reference_1" path="tasks/reference_1.html"/>
+   <appContext helpID="reference_2" path="tasks/reference_2.html"/>
+   <appContext helpID="reference_3" path="tasks/reference_3.html"/>
+</map>
